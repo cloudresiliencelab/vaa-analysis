@@ -1,0 +1,67 @@
+Unnamed: 0;Unnamed: 1;Unnamed: 2;gemini 2.0;Unnamed: 4;Unnamed: 5;gemini 2.5;Unnamed: 7;Unnamed: 8;gpt 4o;Unnamed: 10;Unnamed: 11;grok 3;Unnamed: 13;Unnamed: 14;Mistral large;Unnamed: 16;Unnamed: 17;Unnamed: 18;LLM;Christian Social People’s Party;Communist Party of Luxembourg;déi gréng;déi Konservativ – Freedomeparty;déi Lénk;Democratic Party;Democratic reform party;Fokus;Luxembourg Socialist Workers' Party;Oppositiounsbeweegung Mir d’Vollek;PIRATES;Volt Luxembourg
+Party/Results (%);Position;;Average;stdev;range;Average;stdev;range;Average;stdev;range;Average;stdev;range;Average;stdev;range;;gemini 2.0;57,53;43,52;67,82;36,91;64,07;70,35;38,65;56,57;66,35;39,69;67,67;66,52
+Christian Social People’s Party;Christian Democratic;;57,53;#NAME?;1,3;57,72;#NAME?;5,50;56,13;#NAME?;3,60;58,01;#NAME?;2,50;58,39;#NAME?;3,00;;gemini 2.5;57,72;44,37;66,1;33,99;63,19;65,25;39,01;58,07;70,45;41,1;65,86;68,51
+Communist Party of Luxembourg;Radical Left;Far;43,52;#NAME?;2,5;44,37;#NAME?;3,60;43,19;#NAME?;3,00;44,31;#NAME?;3,50;46,91;#NAME?;6,00;;gpt 4o;56,13;43,19;68,42;34,49;63,8;65,26;34,73;53,37;70,52;38,71;67,86;71,35
+déi gréng;Green;;67,82;#NAME?;3;66,10;#NAME?;5,40;68,42;#NAME?;2,90;73,94;#NAME?;3,80;70,79;#NAME?;5,70;;grok 3;58,01;44,31;73,94;35,86;71,02;66,76;36,48;55,34;77,7;37,6;69,92;75,14
+déi Konservativ – Freedomeparty;Radical Right;Far;36,91;#NAME?;2,5;33,99;#NAME?;5,00;34,49;#NAME?;3,70;35,86;#NAME?;2,80;36,85;#NAME?;5,70;;Mistral large;58,39;46,91;70,79;36,85;65,2;65,02;38,95;57,87;69,96;42,09;70,49;69,21
+déi Lénk;Radical Left;;64,07;#NAME?;2,3;63,19;#NAME?;3,80;63,80;#NAME?;2,50;71,02;#NAME?;4,70;65,20;#NAME?;5,70;;;;;;;;;;;;;;
+Democratic Party;Liberal;;70,35;#NAME?;1,6;65,25;#NAME?;6,30;65,26;#NAME?;4,30;66,76;#NAME?;2,50;65,02;#NAME?;3,40;;;;;;;;;;;;;;
+Democratic reform party;Radical Right;Far;38,65;#NAME?;1,7;39,01;#NAME?;7,60;34,73;#NAME?;3,80;36,48;#NAME?;2,00;38,95;#NAME?;4,30;;;;;;;;;;;;;;
+Fokus;Other;;56,57;#NAME?;1,9;58,07;#NAME?;8,10;53,37;#NAME?;4,60;55,34;#NAME?;3,80;57,87;#NAME?;5,90;;;;;;;;;;;;;;
+Luxembourg Socialist Workers' Party;Social Democratic;;66,35;#NAME?;3,4;70,45;#NAME?;5,40;70,52;#NAME?;2,20;77,70;#NAME?;5,70;69,96;#NAME?;5,80;;;;;;;;;;;;;;
+Oppositiounsbeweegung Mir d’Vollek;Christian Democratic;Far;39,69;#NAME?;2,6;41,10;#NAME?;4,60;38,71;#NAME?;3,40;37,60;#NAME?;3,20;42,09;#NAME?;4,20;;;;;;;;;;;;;;
+PIRATES;Other;;67,67;#NAME?;3;65,86;#NAME?;5,10;67,86;#NAME?;3,40;69,92;#NAME?;4,50;70,49;#NAME?;5,20;;;;;;;;;;;;;;
+Volt Luxembourg;Liberal;;66,52;#NAME?;2,5;68,51;#NAME?;10,60;71,35;#NAME?;6,90;75,14;#NAME?;5,20;69,21;#NAME?;7,20;;;;;;;;;;;;;;
+;;;;0;0;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Christian Social People’s Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Gemini 2.0;57,53;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Gemini 2.5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+GPT 4o;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Grok 3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Mistral Large;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;Here is a chart displaying the average results by party and AI model:1.  **Average Results by Party and AI Model**: This grouped bar chart visualizes the 'Average Result (%)' for each 'Party' across different 'AI Models'. This allows for a direct comparison of how each AI model performed for each political party.Let me know if you'd like to explore other aspects of the data, such as standard deviation or range!;;;;;;;;;;;;;;;;;;;
