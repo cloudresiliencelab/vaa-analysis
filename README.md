@@ -33,4 +33,4 @@ If neither is provided, the script will also try:
 - `Individual Statements/` in the current working directory
 
 ## Repository
-This repository was created with the help of Cursor to provide script readabiltiy and readme text
+This repository was created with the help of Cursor to provide script readabiltiy and readme text. The individual analysis steps were manually coded.
