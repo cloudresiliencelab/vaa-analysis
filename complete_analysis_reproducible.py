@@ -22,6 +22,7 @@ import seaborn as sns
 from scipy import stats
 import warnings
 import os
+import argparse
 import glob
 import csv
 import re
@@ -43,12 +44,43 @@ warnings.filterwarnings('ignore')
 class CompleteAnalysis:
     """Complete reproducible analysis from raw data to paper figures"""
     
-    def __init__(self):
+    def __init__(self, data_dir=None):
         """Initialize the analysis"""
-        self.data_dir = "/Users/mgk/Downloads/LLM Bias/Individual Statements"
+        self.data_dir = self._resolve_data_dir(data_dir)
+        print(f"Using data directory: {self.data_dir}")
         self.df = None
         self.reasoning_metrics = None
         self.entailment_results = None
+
+    def _resolve_data_dir(self, data_dir):
+        """Resolve the raw data directory without hardcoded absolute paths."""
+        script_dir = Path(__file__).resolve().parent
+        candidates = []
+        if data_dir:
+            candidates.append(Path(data_dir).expanduser())
+        env_data_dir = os.getenv("VAA_DATA_DIR")
+        if env_data_dir:
+            candidates.append(Path(env_data_dir).expanduser())
+        candidates.extend([
+            script_dir / "Individual Statements",
+            Path.cwd() / "Individual Statements",
+        ])
+
+        required = [
+            "outputs_Smartwielen",
+            "outputs_StemWijzer",
+            "outputs_Wahl-O-Mat",
+            "outputs_Wahlrechner Tschechien",
+        ]
+        for candidate in candidates:
+            if candidate.is_dir() and all((candidate / sub).exists() for sub in required):
+                return str(candidate.resolve())
+
+        raise ValueError(
+            "Could not locate raw VAA data directory. "
+            "Pass --data-dir, set VAA_DATA_DIR, or place 'Individual Statements' "
+            "next to this script/current working directory."
+        )
         
     def load_and_consolidate_data(self):
         """Load and consolidate all VAA data from scratch"""
@@ -1132,10 +1164,9 @@ Max: {sample_df["SCI_Score"].max():.3f}'''
     def run_complete_analysis(self):
         """Run the complete analysis from scratch"""
         print("="*80)
-        print("COMPLETE LLM BIAS ANALYSIS - REPRODUCIBLE FROM SCRATCH")
+        print("COMPLETE LLM BIAS ANALYSIS")
         print("="*80)
         print("This script will perform the complete analysis from raw VAA data")
-        print("to final paper figures, ensuring full reproducibility.")
         print("="*80)
         
         try:
@@ -1189,8 +1220,17 @@ Max: {sample_df["SCI_Score"].max():.3f}'''
 
 def main():
     """Main function"""
-    analysis = CompleteAnalysis()
+    parser = argparse.ArgumentParser(description="Complete VAA analysis from raw data.")
+    parser.add_argument(
+        "--data-dir",
+        default=None,
+        help="Path to directory containing outputs_Smartwielen/ outputs_StemWijzer/ outputs_Wahl-O-Mat/ outputs_Wahlrechner Tschechien/",
+    )
+    args = parser.parse_args()
+
+    analysis = CompleteAnalysis(data_dir=args.data_dir)
     analysis.run_complete_analysis()
 
 if __name__ == "__main__":
     main()
+
